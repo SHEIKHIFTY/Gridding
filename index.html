@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRAC Grid Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- Navbar -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <!-- Left logo -->
+      <div class="flex flex-auto items-center space-x-2">
+        <img src="logo.png" alt="BRAC Bank Logo" class="h-8 w-auto">
+        <span class="text-2xl text-blue-600 font-semibold">BRAC Bank</span>
+      </div>
+
+      <!-- Right icons -->
+      <div class="flex items-center space-x-4">
+        <button class="text-sm border rounded px-2 py-1 font-semibold">EN</button>
+        <span class="text-sm text-gray-600">16221</span>
+        <button class="bg-blue-600 text-white text-sm font-semibold px-4 py-1 rounded">Log In</button>
+        <button class="text-2xl">☰</button>
+      </div>
+    </div>
+  </header>
+
+<body class="bg-white p-4">
+  <section class="max-w-[1440px] mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-8">Our Activities</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 auto-rows-[180px] sm:auto-rows-[220px] lg:auto-rows-[240px]">
+      <!-- Top Left Large Horizontal -->
+      <div class="col-span-1 sm:col-span-2 lg:col-span-2 bg-blue-100 rounded-xl"></div>
+
+      <!-- Small Center Icon -->
+      <div class="col-span-1 bg-yellow-400 rounded-lg flex items-center justify-center">
+        <span class="text-white text-4xl font-bold">★</span>
+      </div>
+
+      <!-- Orange Tall with Text -->
+      <div class="col-span-1 row-span-2 bg-orange-400 rounded-lg p-4 flex flex-col justify-end text-white">
+        <p class="font-semibold">Affordable Auto Loans to Make Your Car Yours</p>
+        <a href="#" class="underline text-sm mt-2">Read More</a>
+      </div>
+
+      <!-- Blue Medium with Card -->
+      <div class="col-span-1 row-span-2 bg-sky-300 rounded-lg"></div>
+
+      <!-- Yellow Tall (Right Side) -->
+      <div class="col-span-1 row-span-2 bg-yellow-400 rounded-lg p-4">
+        <p class="text-white font-semibold">Discover the Services You Need, Delivered Just for You</p>
+      </div>
+
+      <!-- Large Square with Play Button -->
+      <div class="col-span-2 sm:col-span-3 row-span-2 bg-cyan-700 rounded-lg flex items-center justify-center relative">
+        <button class="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center absolute">
+          ▶
+        </button>
+      </div>
+
+      <!-- Blue Shapes Box -->
+      <div class="col-span-1 bg-cyan-200 rounded-lg"></div>
+
+      <!-- Man in Orange Shirt -->
+      <div class="col-span-1 sm:col-span-2 bg-blue-400 rounded-lg"></div>
+    </div>
+  </section>
+</body>
+</html>
